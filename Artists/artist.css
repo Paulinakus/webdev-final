@@ -40,8 +40,24 @@ footer {
 }
 
 
+.logo-container {
+    width: 3rem;
+    position: relative;
+}
+
 .logo {
-    width: 8rem;
-    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: bounce .5s infinite alternate ease-in-out;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    } to {
+        transform: translateY(20px);
+    }
 }
 
