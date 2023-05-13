@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    color: green;
+    font-family: Lobster;
+}
+header p {
+    font-family: Quicksand;
+}
+header h1 {
+    font-size: 6em;
+}
+
+img{
+    width: 100%;
+}
+.artistsimg {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: .5rem;
+    margin: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+
+.logo {
+    width: 8rem;
+    
+}
+

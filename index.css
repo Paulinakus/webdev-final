@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@700&display=swap');
+
+
 *{
     margin: 0 auto;
     padding: 0;
@@ -5,10 +8,15 @@
 }
 
 header {
-
     text-align: center;
-    margin: 2rem;
     color: green;
+    font-family: Lobster;
+}
+header p {
+    font-family: Quicksand;
+}
+header h1 {
+    font-size: 6em;
 }
 .menu_gallery {
     display: grid;

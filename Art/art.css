@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@700&display=swap');
+
+
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -5,7 +9,13 @@
 header {
     text-align: center;
     color: green;
-
+    font-family: Lobster;
+}
+header p {
+    font-family: Quicksand;
+}
+header h1 {
+    font-size: 6em;
 }
 
 nav {
@@ -15,11 +25,11 @@ nav {
     margin: 2rem;
 }
 .slide_images {
-aspect-ratio: 1;
-display: flex;
-overflow-x:scroll;
-scroll-behavior: smooth;
-scroll-snap-type: x mandatory;
+    aspect-ratio: 1;
+    display: flex;
+    overflow-x:scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
     width: 100%;
 }
 
